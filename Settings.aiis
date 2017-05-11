@@ -178,12 +178,7 @@
     "PromptNameOnAddElement": true,
     "DefaultWPFApplication": null,
     "UseLegacySilverlightFindLogic": false,
-<<<<<<< HEAD
     "ProjectGuid": "cfb3a437-19fd-47a9-a580-cb37260e84a4",
-    "SourceControlRepository": null,
-    "IsOnline": false,
-=======
-    "ProjectGuid": "22c762b4-e24e-49e3-a3e4-18cd63413cbb",
     "SourceControlRepository": {
       "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
       "__value": {
@@ -198,7 +193,6 @@
       }
     },
     "IsOnline": true,
->>>>>>> master
     "ProjectLanguage": 2,
     "ProjectReferences": [
       "System",
@@ -213,13 +207,8 @@
     "ScheduleServerUrl": "http://localhost:8009",
     "IsScheduleServerRemote": false,
     "ProjectVersion": "2017.1.116.0",
-<<<<<<< HEAD
     "Namespace": "TestProject223",
     "AssemblyName": "TestProject223",
-=======
-    "Namespace": "TestProject218",
-    "AssemblyName": "TestProject218",
->>>>>>> master
     "OutputFolder": "bin",
     "ExcludedFiles": [],
     "DisabledTranslators": [],
