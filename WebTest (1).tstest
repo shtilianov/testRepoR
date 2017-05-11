@@ -13,7 +13,47 @@
     "CurrentReferences": [],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
-      "__value": []
+      "__value": [
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "43e30d9a-f9b4-4771-a433-aa677e1676b9",
+            "Description": "Wait for '250' msec.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SleepActionDescriptor",
+              "__value": {
+                "WaitTime": 250,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 1,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "WebTestaszslw1j.g2l",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        }
+      ]
     },
     "IndependentDescriptors": [],
     "HtmlDescription": "",
@@ -29,7 +69,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "WebTest.resx",
+    "ResourceFilePath": "WebTest (1).resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -59,13 +99,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "WebTest",
+    "Name": "WebTest (1)",
     "Owner": "",
-    "Path": "WebTest.tstest",
+    "Path": "WebTest (1).tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "779a638d-5477-4bbc-9d1f-e1f63aee9d4b",
-    "Id": "779a638d-5477-4bbc-9d1f-e1f63aee9d4b",
+    "UniqueId": "8efce43f-59df-4fce-9052-d1222f2587d3",
+    "Id": "8efce43f-59df-4fce-9052-d1222f2587d3",
     "ProjectId": "22c762b4-e24e-49e3-a3e4-18cd63413cbb",
     "Version": 200
   }
