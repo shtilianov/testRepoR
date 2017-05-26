@@ -5,11 +5,7 @@
     "RecordjQueryInDescriptorsIfPossible": true,
     "ShouldDeleteElement": false,
     "SkipDeleteElementPrompt": false,
-<<<<<<< HEAD
-    "HideFindExpressionWelcome": false,
-=======
     "HideFindExpressionWelcome": true,
->>>>>>> master
     "MenuHoldTime": 1.0,
     "SilverlightConnectTimeout": 60000,
     "BaseClassName": "BaseWebAiiTest",
@@ -154,34 +150,18 @@
       }
     },
     "UnitTypeTypeGeneration": 1,
-<<<<<<< HEAD
     "RecorderBaseUrl": "http://demos.teststudio.com/sampleapp",
     "IsStoryBoardCapturingEnabled": true,
     "SimulateRealClickByDefault": false,
     "SimulateRealTypingByDefault": false,
-    "DisableUIAUsage": false,
     "SimulateRealSilverlightUserByDefault": true,
     "DefaultDropDownSelection": 1,
     "QuickExecutionElementWaitTimeout": 30000,
     "QuickExecutionClientReadyTimeout": 60000,
     "QcServerUrl": null,
-    "QcUserName": "webui",
-    "QcPassword": "Bt6/TQp8sw8=",
-    "QcSkipAuthDialog": true,
-=======
-    "RecorderBaseUrl": "",
-    "IsStoryBoardCapturingEnabled": true,
-    "SimulateRealClickByDefault": false,
-    "SimulateRealTypingByDefault": false,
-    "SimulateRealSilverlightUserByDefault": true,
-    "DefaultDropDownSelection": 1,
-    "QuickExecutionElementWaitTimeout": 15000,
-    "QuickExecutionClientReadyTimeout": 60000,
-    "QcServerUrl": null,
     "QcUserName": "",
     "QcPassword": "",
     "QcSkipAuthDialog": false,
->>>>>>> master
     "QcDomain": null,
     "QcProject": null,
     "TfsUserName": "",
@@ -191,21 +171,28 @@
     "TeamPulseServerUrl": "",
     "TpUserName": "",
     "TpPassword": "",
-<<<<<<< HEAD
-    "TpUseWindowsAuth": true,
-=======
     "TpUseWindowsAuth": false,
->>>>>>> master
     "TpSkipAuthDialog": false,
     "TpDefaultProjectId": -1,
     "RecordWpfWindowStateChanged": false,
     "PromptNameOnAddElement": true,
     "DefaultWPFApplication": null,
     "UseLegacySilverlightFindLogic": false,
-<<<<<<< HEAD
     "ProjectGuid": "d0958ad3-8052-4115-b2cd-30435e861002",
-    "SourceControlRepository": null,
-    "IsOnline": false,
+    "SourceControlRepository": {
+      "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
+      "__value": {
+        "RemotePath": "https://github.com/shtilianov/testRepoR.git",
+        "ServerInfo": {
+          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
+          "__value": {
+            "ServerName": "https://github.com/shtilianov/testRepoR.git"
+          }
+        },
+        "ServerType": 2
+      }
+    },
+    "IsOnline": true,
     "ProjectLanguage": 1,
     "ProjectReferences": [
       "System",
@@ -223,39 +210,6 @@
     "ProjectVersion": "2017.2.517.0",
     "Namespace": "new_test_project",
     "AssemblyName": "new-test-project",
-=======
-    "ProjectGuid": "cfb3a437-19fd-47a9-a580-cb37260e84a4",
-    "SourceControlRepository": {
-      "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
-      "__value": {
-        "RemotePath": "https://github.com/shtilianov/repo555.git",
-        "ServerInfo": {
-          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
-          "__value": {
-            "ServerName": "https://github.com/shtilianov/repo555.git"
-          }
-        },
-        "ServerType": 2
-      }
-    },
-    "IsOnline": true,
-    "ProjectLanguage": 2,
-    "ProjectReferences": [
-      "System",
-      "System.Core",
-      "ArtOfTest.WebAii, Version=2017.1.510.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
-      "ArtOfTest.WebAii.Design, Version=2017.1.510.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
-      "Telerik.WebAii.Controls.Html, Version=2017.1.510.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml, Version=2017.1.510.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2017.1.510.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.TestingFramework.Controls.KendoUI, Version=2017.1.510.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
-    ],
-    "ScheduleServerUrl": "http://localhost:8009",
-    "IsScheduleServerRemote": false,
-    "ProjectVersion": "2017.1.116.0",
-    "Namespace": "TestProject223",
-    "AssemblyName": "TestProject223",
->>>>>>> master
     "OutputFolder": "bin",
     "ExcludedFiles": [],
     "DisabledTranslators": [],
@@ -266,10 +220,6 @@
     "BugAddAttachment": true,
     "BugAutoSubmit": false,
     "BugDescriptionMask": "{Description}",
-<<<<<<< HEAD
-    "SelectedBrowserOption": 2
-=======
     "SelectedBrowserOption": 0
->>>>>>> master
   }
 }
